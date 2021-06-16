@@ -1,0 +1,25 @@
+import  com.dlos.rules.drools.domain.LoanEligibilityCheck;
+
+rule "Loan Eligibility check if low credit score"
+    when
+        leObject : LoanEligibilityCheck( creditScore>=0 && creditScore<500);
+    then
+        leObject.setIsDeviation( true );
+end;
+
+rule "Loan Eligibility check if low credit score but decent income"
+    when
+        leObject : LoanEligibilityCheck( creditScore >= 500 && creditScore < 650 && income >= 1000000);
+    then
+        leObject.setIsDeviation( false );
+end;
+
+rule "Loan Eligibility check if good credit score"
+    when
+        leObject : LoanEligibilityCheck( creditScore > 650 );
+    then
+        leObject.setIsDeviation( false );
+end;
+
+
+

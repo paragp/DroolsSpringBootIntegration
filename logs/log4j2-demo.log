@@ -1,0 +1,176 @@
+2021-06-17 01:15:42.499  INFO NUCL201
+			--- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method DroolsAutoConfiguration.kiePostProcessor is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-17 01:15:42.651  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : :: BeanFactoryPostProcessor::postProcessBeanFactory called ::
+2021-06-17 01:15:42.704  WARN NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Unable to find pom.properties in /D:/TProjects/drools-demo-master/drools-demo-master/target/classes/com/dlos/rules/drools/config
+2021-06-17 01:15:42.723  INFO NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Recursed up folders, found and used pom.xml D:\TProjects\drools-demo-master\drools-demo-master\pom.xml
+2021-06-17 01:15:42.726  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : Found project with releaseId: com.dlos.rules:drools-demo:0.0.1-SNAPSHOT
+2021-06-17 01:15:44.333  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-06-17 01:15:44.350  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:15:44.351  INFO NUCL201
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-06-17 01:15:44.352  INFO NUCL201
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17 01:15:44.514  INFO NUCL201
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-06-17 01:15:44.514  INFO NUCL201
+			--- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3557 ms
+2021-06-17 01:15:47.499  INFO NUCL201
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17 01:15:47.857  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:15:47.921  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-17 01:15:57.998  INFO NUCL201
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17 01:15:57.999  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-06-17 01:15:58.002  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2021-06-17 01:15:58.156 ERROR NUCL201
+			--- [nio-8080-exec-1] c.d.r.d.c.FixedDepositRateController     : Oops! We have an Error. OK
+2021-06-17 01:15:58.160 FATAL NUCL201
+			--- [nio-8080-exec-1] c.d.r.d.c.FixedDepositRateController     : Damn! Fatal error. Please fix me.
+2021-06-17 01:40:30.068  INFO NUCL201
+			--- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method DroolsAutoConfiguration.kiePostProcessor is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-17 01:40:30.115  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : :: BeanFactoryPostProcessor::postProcessBeanFactory called ::
+2021-06-17 01:40:30.149  WARN NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Unable to find pom.properties in /D:/TProjects/drools-demo-master/drools-demo-master/target/classes/com/dlos/rules/drools/config
+2021-06-17 01:40:30.165  INFO NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Recursed up folders, found and used pom.xml D:\TProjects\drools-demo-master\drools-demo-master\pom.xml
+2021-06-17 01:40:30.166  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : Found project with releaseId: com.dlos.rules:drools-demo:0.0.1-SNAPSHOT
+2021-06-17 01:40:31.305  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-06-17 01:40:31.319  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:40:31.320  INFO NUCL201
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-06-17 01:40:31.320  INFO NUCL201
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17 01:40:31.453  INFO NUCL201
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-06-17 01:40:31.453  INFO NUCL201
+			--- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2287 ms
+2021-06-17 01:40:34.339  INFO NUCL201
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17 01:40:34.601  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:40:34.661  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-17 01:41:15.646  INFO NUCL201
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17 01:41:15.647  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-06-17 01:41:15.650  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-06-17 01:43:25.388  INFO NUCL201
+			--- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method DroolsAutoConfiguration.kiePostProcessor is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-17 01:43:25.426  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : :: BeanFactoryPostProcessor::postProcessBeanFactory called ::
+2021-06-17 01:43:25.441  WARN NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Unable to find pom.properties in /D:/TProjects/drools-demo-master/drools-demo-master/target/classes/com/dlos/rules/drools/config
+2021-06-17 01:43:25.454  INFO NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Recursed up folders, found and used pom.xml D:\TProjects\drools-demo-master\drools-demo-master\pom.xml
+2021-06-17 01:43:25.455  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : Found project with releaseId: com.dlos.rules:drools-demo:0.0.1-SNAPSHOT
+2021-06-17 01:43:26.612  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-06-17 01:43:26.628  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:43:26.629  INFO NUCL201
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-06-17 01:43:26.629  INFO NUCL201
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17 01:43:26.896  INFO NUCL201
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-06-17 01:43:26.897  INFO NUCL201
+			--- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2376 ms
+2021-06-17 01:43:29.445  INFO NUCL201
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17 01:43:29.779  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:43:29.844  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-17 01:43:34.990  INFO NUCL201
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17 01:43:34.992  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-06-17 01:43:34.994  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-06-17 01:44:05.196  WARN NUCL201
+			--- [nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'income' is not present]
+2021-06-17 01:46:36.201  INFO NUCL201
+			--- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method DroolsAutoConfiguration.kiePostProcessor is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-17 01:46:36.258  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : :: BeanFactoryPostProcessor::postProcessBeanFactory called ::
+2021-06-17 01:46:36.286  WARN NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Unable to find pom.properties in /D:/TProjects/drools-demo-master/drools-demo-master/target/classes/com/dlos/rules/drools/config
+2021-06-17 01:46:36.305  INFO NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Recursed up folders, found and used pom.xml D:\TProjects\drools-demo-master\drools-demo-master\pom.xml
+2021-06-17 01:46:36.306  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : Found project with releaseId: com.dlos.rules:drools-demo:0.0.1-SNAPSHOT
+2021-06-17 01:46:37.528  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-06-17 01:46:37.544  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:46:37.544  INFO NUCL201
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-06-17 01:46:37.545  INFO NUCL201
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17 01:46:37.676  INFO NUCL201
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-06-17 01:46:37.677  INFO NUCL201
+			--- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2272 ms
+2021-06-17 01:46:40.311  INFO NUCL201
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17 01:46:40.635  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-06-17 01:46:40.693  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-17 01:46:59.036  INFO NUCL201
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17 01:46:59.038  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-06-17 01:46:59.040  INFO NUCL201
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-06-17 02:04:25.343  INFO NUCL201
+			--- [           main] o.s.c.a.ConfigurationClassEnhancer       : @Bean method DroolsAutoConfiguration.kiePostProcessor is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-17 02:04:25.378  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : :: BeanFactoryPostProcessor::postProcessBeanFactory called ::
+2021-06-17 02:04:25.396  WARN NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Unable to find pom.properties in /D:/TProjects/drools-demo-master/DroolsService/target/classes/com/dlos/rules/drools/config
+2021-06-17 02:04:25.413  INFO NUCL201
+			--- [           main] o.d.c.k.b.i.ClasspathKieProject          : Recursed up folders, found and used pom.xml D:\TProjects\drools-demo-master\DroolsService\pom.xml
+2021-06-17 02:04:25.416  INFO NUCL201
+			--- [           main] o.k.s.KModuleBeanFactoryPostProcessor    : Found project with releaseId: com.dlos.rules:drools-demo:0.0.1-SNAPSHOT
+2021-06-17 02:04:26.394  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-06-17 02:04:26.408  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-17 02:04:26.408  INFO NUCL201
+			--- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-06-17 02:04:26.409  INFO NUCL201
+			--- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-06-17 02:04:26.551  INFO NUCL201
+			--- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-06-17 02:04:26.553  INFO NUCL201
+			--- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2027 ms
+2021-06-17 02:04:28.728  INFO NUCL201
+			--- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-17 02:04:28.997  INFO NUCL201
+			--- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-06-17 02:04:29.061  INFO NUCL201
+			--- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-17 02:05:02.192  INFO NUCL201
+			--- [nio-8080-exec-4] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-17 02:05:02.195  INFO NUCL201
+			--- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-06-17 02:05:02.201  INFO NUCL201
+			--- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed initialization in 6 ms
